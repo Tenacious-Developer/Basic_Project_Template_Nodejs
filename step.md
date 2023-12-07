@@ -1,0 +1,30 @@
+- npm init - setup basic npm project and give basic package.json file
+- git init
+- setupt .gitignore 
+- npm i express
+- npm i dotenv
+- npm i http-status-codes
+- .env folder created
+- Setup config folder, inside this we make index.js file
+- for checking port used - sudo lsof -i -P -n | grep LISTEN
+- Setup folder controllers, services, utills, routes, middlewares
+- install nodemon
+- use command npx nodemon src/index.js
+- configure script for npx nodemon src/index.js
+- two types of routes API driven and no-API driven
+- we design routes and controllers
+- winston is used for log file
+- npm i winston
+- ORM vs ODM
+- Sequelize ORM
+- npm i sequelize
+- Sequilize driver npm install mysql2
+- Sequlize cli
+- npm install sequelize-cli
+- go inside src folder and run - npx sequelize init
+- automatically add config json, seeders, models, migration
+- dialect - which db connect to
+-  add config json in git-ignore
+- write the password in config json database
+- seeders
+- migration- vcs for database
